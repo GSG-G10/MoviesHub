@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  background-color: #566270;
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 6px 25px -3px black;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.main-container > input {
+  padding: 10px 15px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 20px;
+  width: 60%;
+  border: none;
+}
+
+.no-data{
+  color: red;
+  text-align: center;
+  margin-top: 2.5rem;
+
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
