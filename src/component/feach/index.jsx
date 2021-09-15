@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../card';
 import './style.css'
-import FontAwesome from 'react-fontawesome';
-
-import Logo from './logo2.jpg'
 
 class FetchData extends Component {
   state = {
