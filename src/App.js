@@ -1,9 +1,11 @@
 import './App.css';
+import FetchData from './component/feach';
+
 
 function App() {
   return (
     <div className="App">
-<h1>hiiiii</h1>       
+      <FetchData />
     </div>
   );
 }
