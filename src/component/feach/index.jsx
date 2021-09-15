@@ -23,7 +23,6 @@ class FetchData extends Component {
 
   changeHandler = (e) => {
     this.setState({ value: e.target.value });
-    console.log(e.target.value);
   };
 
   render() {
