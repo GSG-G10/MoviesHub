@@ -20,6 +20,16 @@ class FetchData extends Component {
       }
     }
   }
+  componentDidMount() {
+
+        fetch(
+          `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query='fast'`
+        )
+          .then((res) => res.json())
+          .then((data) => this.setState({ data: data.results }))
+          .catch((err) => console.log(err));
+      }
+    
 
   changeHandler = (e) => {
     this.setState({ value: e.target.value });
